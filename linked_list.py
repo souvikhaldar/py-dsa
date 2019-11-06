@@ -1,0 +1,10 @@
+from linked_list import singly_linked_list
+ll = singly_linked_list.linked_list()
+ll.insert_at_beg(1)
+ll.insert_at_end(2)
+ll.insert_at_end(3)
+ll.insert_after_n(6,0)
+#ll.delete_from_beg()
+#ll.delete_at_end()
+ll.delete_after_n(0)
+ll.forward_print()

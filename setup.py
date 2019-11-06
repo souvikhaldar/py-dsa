@@ -1,4 +1,4 @@
-mport setuptools
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -11,7 +11,7 @@ setuptools.setup(
     description="All abstract data types and algorithms implemented in Python 3",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/souvikhaldar/py-dsa",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
