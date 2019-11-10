@@ -3,7 +3,7 @@ class node:
         self.data = data
         self.next = None
 
-class linked_list:
+class singly_linked_list:
     def __init__(self):
         self.head = None 
     # insert a new node at the beginning of the linked list
@@ -21,7 +21,7 @@ class linked_list:
         temp.next = new_node
 
     # insert a node after nth position, position starts from 0
-    def insert_after_n(self,data,n):
+    def insert_after(self,data,n):
         new_node = node(data)
         temp = self.head
         counter = 0
