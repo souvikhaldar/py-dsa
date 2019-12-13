@@ -139,7 +139,7 @@ class BST:
 
 
 
-
+# test
 if __name__ == "__main__":
     t = BST()
     t.insert(2)
